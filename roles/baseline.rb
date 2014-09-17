@@ -5,8 +5,6 @@ run_list(
   "recipe[apt]",
   "recipe[logrotate]",
   "recipe[openssh]",
-  "recipe[postfix]",
-  "recipe[postfix::aliases]",
   "recipe[site-user::users]",
   "recipe[sudo]",
   "recipe[unattended-upgrades]",
