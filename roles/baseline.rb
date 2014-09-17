@@ -11,6 +11,7 @@ run_list(
   "recipe[sudo]",
   "recipe[unattended-upgrades]",
   "recipe[vim]",
+  "recipe[git]"
 )
 
 override_attributes(
