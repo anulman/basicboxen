@@ -9,6 +9,7 @@ cookbook 'mongodb', git: 'git://github.com/edelight/chef-mongodb.git', tag: '0.1
 cookbook 'nginx'
 cookbook 'openssh'
 cookbook 'postfix'
+cookbook 'postgis'
 cookbook 'postgresql'
 cookbook 'rbenv'
 cookbook 'redisio'
