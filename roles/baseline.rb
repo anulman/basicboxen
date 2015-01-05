@@ -6,6 +6,7 @@ run_list(
   "recipe[logrotate]",
   "recipe[openssh]",
   "recipe[site-user::users]",
+  "recipe[site-swap::swapon]",
   "recipe[sudo]",
   "recipe[unattended-upgrades]",
   "recipe[vim]",
