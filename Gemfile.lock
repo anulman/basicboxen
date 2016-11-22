@@ -211,8 +211,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  berkshelf
-  knife-solo (>= 0.3.0pre3)
+  berkshelf (>= 5.2.0)
+  knife-solo (>= 0.6.0)
 
 BUNDLED WITH
    1.13.6
