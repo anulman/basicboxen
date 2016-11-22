@@ -7,6 +7,12 @@
     "role[postgis]"
   ],
 
+  "postfix": {
+    "aliases": {
+      "root": "stefan@commonsort.com"
+    }
+  },
+
   "users": [
     { "username": "deploy",
       "comment": "Deploy user",
