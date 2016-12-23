@@ -3,8 +3,7 @@
     "role[baseline]",
     "role[proxy]",
     "role[ruby_app]",
-    "role[postgres]",
-    "role[postgis]"
+    "role[postgres]"
   ],
 
   "postfix": {
