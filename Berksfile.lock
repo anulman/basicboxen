@@ -1,6 +1,7 @@
 DEPENDENCIES
   apt
   build-essential
+  certbot
   elasticsearch
   java
   logrotate
@@ -40,8 +41,13 @@ GRAPH
     rsyslog (>= 2.0)
   build-essential (2.4.0)
     7-zip (>= 0.0.0)
+  certbot (0.1.2)
+    cron (>= 0.0.0)
+    nginx (< 3.0)
+    yum-epel (>= 0.0.0)
   chef-sugar (3.4.0)
   compat_resource (12.16.3)
+  cron (3.0.0)
   dmg (3.0.0)
   elasticsearch (3.0.2)
     apt (>= 0.0.0)

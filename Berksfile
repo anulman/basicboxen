@@ -2,6 +2,7 @@ source 'https://supermarket.getchef.com'
 
 cookbook 'apt'
 cookbook 'build-essential'
+cookbook 'certbot'
 cookbook 'elasticsearch'
 cookbook 'java'
 cookbook 'logrotate'
