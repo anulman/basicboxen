@@ -28,5 +28,14 @@
       "users": ["deploy"],
       "passwordless": "true"
     }
+  },
+
+  "certbot": {
+    "site": {
+      "webroot_path": "/var/www/commonsort-api/current/public",
+      "email": "stefan+certbot@commonsort.com",
+      "domains": ["commonsort.isleofcode.com"],
+      "agree_tos": true
+    }
   }
 }
