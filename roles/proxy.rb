@@ -4,6 +4,7 @@ description "Reverse proxy server"
 run_list(
   "recipe[site-certbot::bootstrap]",
   "recipe[nginx]",
+  "recipe[site-certbot]"
 )
 
 override_attributes(
