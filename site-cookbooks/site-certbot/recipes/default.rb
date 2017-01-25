@@ -13,10 +13,11 @@ directory cert_dir do
   only_if { Certbot::Util.self_signed_certificate?(cert_file) }
 end
 
-certbot_certonly_webroot 'something' do
+certbot_certonly_webroot primary_domain do
   webroot_path node['certbot']['site']['webroot_path']
   email node['certbot']['site']['email']
   domains node['certbot']['site']['domains']
   agree_tos node['certbot']['site']['agree_tos']
+  expand node['certbot']['site']['expand']
   notifies :restart, "service[nginx]"
 end

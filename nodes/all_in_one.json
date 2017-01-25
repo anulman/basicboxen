@@ -34,7 +34,11 @@
     "site": {
       "webroot_path": "/var/www/commonsort-api/current/public",
       "email": "stefan+certbot@commonsort.com",
-      "domains": ["commonsort.isleofcode.com"],
+      "domains": [
+        "commonsort.isleofcode.com",
+        "api.commonsort.com"
+      ],
+      "expand": true,
       "agree_tos": true
     }
   }
