@@ -12,16 +12,15 @@
     }
   },
 
-  "users": [
-    { "username": "deploy",
-      "comment": "Deploy user",
-      "ssh_keys": [
-        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD1o0+mss+IFLLB0atDJzXnAT5ZV2E36GCn/DDe4PGClAFZ9hAJLkv4KP6Z7QzGdFRmjvAGw2Lmc9KeWdsqmzC0nRbVnBFOyu8PMDXoFsI/t1kYr4JFwlJuCizgG8ZIR8wu4u+oFoUyrOMtkm7hH29Rcbodqf8Nocr+CWlR6tBfmv+38LyR6WhFwPzfiCb0Dp87hyufBsMYSA3BoT9R6ont7Uvj3mtt/4MK5BOjPI8oFnhyrbRsiOG+M3/Fpgb7NY/l6gkwEus7PurLspDP8Ncxllw79n5ZOJegYNP2JgB4xYKcWFS2TWhN3xnmydxyuHHUDbsrKeXOYykTRnlu23EsCSDhlTjL46tGnKaUP9UaMi5QcTg3MDqgPfbuBEoyurTga0cU0KUHTJTjb3mk6GhgJWr3O6B2Wd2bKiAJPP+OxaZelML5/KPeTdbpd5mVZvrm+rFeaC+sCSVYwVk/t1X94hVH7Q9pj/FlNkaU45x9gUwD/bWGPY74gCTSGLe8apIB6Yb+WVyyUfi0EAaBilPUugp4CQdiBUy+jdKTRl0X0BkezSvoB8PwHnKDBtRnIPnPyuHXDrT+I6e9U8yApRLp/AeAqOQ5sA0EL9/vnLX/3uXFViEqlKDc3Dj3tjRrGW9lymBAacKSUviFs4aw7enWry3PV84aViUV7n5uxqBBEw== @anulman secure",
-        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCuQNjccktl3OA7YgS+ntfreeosXmT1w5Wwg7F80i0AjPABNGA5TRajPY2xce4im+qGOaQYtIe9QsO0ckTv3X6MKXPBkqr/GlfhLhvTDJJo35jOs8NmCa3u4XLqZvsGVyW0mT3vW/WNWirmd3Hl9wLX9vqCUVKgHL0Ewi3ZFluG0Bx8n8Qw8tm62RytVqI8AdGCNiUbA/vi5xf8JEQ4bPR+BBWhcLSxylRwfV2RqR7jwD1jjllrk/oDIspquvilGhMHIkQw89ybLusBudINIiGGhet3SRQiKfW0XXmfPK5Cb023Lk+UQqjN63bJ30RfPE/ccW64kNL5sPa3D95MUOxr alexblom@Alexs-MacBook-Pro.local",
-        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC8+2WE2Q0eg6YNnbRdHkCjhj2CcgV4FXA1qZX4XnEmVAd1Ncruvt2SSnwTMM7fu5mEUGoj5hMhFbuYvH490YNKpf06Sc7T3RS0M7L3W+B88btnkI8+Kyl5WhbusWqsENJCSx2XY3In8k8qkd7W9Pot81hg5L4QBeaYmrFxY5wQP9YQAECTMi7jM7p5mQk/TRnuwdi7oDKMvrTmRCWLva9XGT9C6Ws3D4plv+Ah1CTlXCHWgNGAjOn5P0LZTbhO5taJ9PmGQv8ccBokzWK0A8RAZPLwFJiUgJi91ERWyTvwjr1ebp5wbUDYNbIcr84vxD7wQp1lr+bj6MQ6hvQcGnBgTRd0rPGVlX4zx9dsdgX9nQFnsOgXSf/Z7SK5TbhQTCP5x7FecLgOGEUP4np0psKqOEQuXg9UxyiLxe5eQUFZgMRLbR9nElPaYsEYxVVGWY1oUCS6EENpQcSkwEytIXnB4ljy1QzSrgHqhBUm9dSvuCe31qv6v+yyUIb/mLfICOD6UduepWQMwRKtZdCW9302U7oWNweeWHQts08TWMf5zNJIsS4HJLkE0IGfQcsXHCrXiIfFqS4GNcT8yFyycQ/ye2MZ9O1wNYkvjkBLpyxZZOcRGUxyvSQ0/uNafJ7V7qdjJyA4NpaTFaJijC7mHNqgp2lLIwnWUPbaGF943aX2pw== stefan@commonsort.com"
-      ]
-    }
-  ],
+  "users": [{
+    "username": "deploy",
+    "comment": "Deploy user",
+    "ssh_keys": [
+      "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD1o0+mss+IFLLB0atDJzXnAT5ZV2E36GCn/DDe4PGClAFZ9hAJLkv4KP6Z7QzGdFRmjvAGw2Lmc9KeWdsqmzC0nRbVnBFOyu8PMDXoFsI/t1kYr4JFwlJuCizgG8ZIR8wu4u+oFoUyrOMtkm7hH29Rcbodqf8Nocr+CWlR6tBfmv+38LyR6WhFwPzfiCb0Dp87hyufBsMYSA3BoT9R6ont7Uvj3mtt/4MK5BOjPI8oFnhyrbRsiOG+M3/Fpgb7NY/l6gkwEus7PurLspDP8Ncxllw79n5ZOJegYNP2JgB4xYKcWFS2TWhN3xnmydxyuHHUDbsrKeXOYykTRnlu23EsCSDhlTjL46tGnKaUP9UaMi5QcTg3MDqgPfbuBEoyurTga0cU0KUHTJTjb3mk6GhgJWr3O6B2Wd2bKiAJPP+OxaZelML5/KPeTdbpd5mVZvrm+rFeaC+sCSVYwVk/t1X94hVH7Q9pj/FlNkaU45x9gUwD/bWGPY74gCTSGLe8apIB6Yb+WVyyUfi0EAaBilPUugp4CQdiBUy+jdKTRl0X0BkezSvoB8PwHnKDBtRnIPnPyuHXDrT+I6e9U8yApRLp/AeAqOQ5sA0EL9/vnLX/3uXFViEqlKDc3Dj3tjRrGW9lymBAacKSUviFs4aw7enWry3PV84aViUV7n5uxqBBEw== @anulman secure",
+      "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCuQNjccktl3OA7YgS+ntfreeosXmT1w5Wwg7F80i0AjPABNGA5TRajPY2xce4im+qGOaQYtIe9QsO0ckTv3X6MKXPBkqr/GlfhLhvTDJJo35jOs8NmCa3u4XLqZvsGVyW0mT3vW/WNWirmd3Hl9wLX9vqCUVKgHL0Ewi3ZFluG0Bx8n8Qw8tm62RytVqI8AdGCNiUbA/vi5xf8JEQ4bPR+BBWhcLSxylRwfV2RqR7jwD1jjllrk/oDIspquvilGhMHIkQw89ybLusBudINIiGGhet3SRQiKfW0XXmfPK5Cb023Lk+UQqjN63bJ30RfPE/ccW64kNL5sPa3D95MUOxr alexblom@Alexs-MacBook-Pro.local",
+      "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC8+2WE2Q0eg6YNnbRdHkCjhj2CcgV4FXA1qZX4XnEmVAd1Ncruvt2SSnwTMM7fu5mEUGoj5hMhFbuYvH490YNKpf06Sc7T3RS0M7L3W+B88btnkI8+Kyl5WhbusWqsENJCSx2XY3In8k8qkd7W9Pot81hg5L4QBeaYmrFxY5wQP9YQAECTMi7jM7p5mQk/TRnuwdi7oDKMvrTmRCWLva9XGT9C6Ws3D4plv+Ah1CTlXCHWgNGAjOn5P0LZTbhO5taJ9PmGQv8ccBokzWK0A8RAZPLwFJiUgJi91ERWyTvwjr1ebp5wbUDYNbIcr84vxD7wQp1lr+bj6MQ6hvQcGnBgTRd0rPGVlX4zx9dsdgX9nQFnsOgXSf/Z7SK5TbhQTCP5x7FecLgOGEUP4np0psKqOEQuXg9UxyiLxe5eQUFZgMRLbR9nElPaYsEYxVVGWY1oUCS6EENpQcSkwEytIXnB4ljy1QzSrgHqhBUm9dSvuCe31qv6v+yyUIb/mLfICOD6UduepWQMwRKtZdCW9302U7oWNweeWHQts08TWMf5zNJIsS4HJLkE0IGfQcsXHCrXiIfFqS4GNcT8yFyycQ/ye2MZ9O1wNYkvjkBLpyxZZOcRGUxyvSQ0/uNafJ7V7qdjJyA4NpaTFaJijC7mHNqgp2lLIwnWUPbaGF943aX2pw== stefan@commonsort.com"
+    ]
+  }],
 
   "authorization": {
     "sudo": {
@@ -30,16 +29,12 @@
     }
   },
 
-  "certbot": {
-    "site": {
-      "webroot_path": "/var/www/commonsort-api/current/public",
-      "email": "stefan+certbot@commonsort.com",
-      "domains": [
-        "commonsort.isleofcode.com",
-        "api.commonsort.com"
-      ],
-      "expand": true,
-      "agree_tos": true
-    }
+  "site-certbot": {
+    "agree_tos": true,
+    "email": "stefan+certbot@commonsort.com",
+    "sites": [{
+      "name": "commonsort-api",
+      "domains": ["api.commonsort.com"]
+    }]
   }
 }

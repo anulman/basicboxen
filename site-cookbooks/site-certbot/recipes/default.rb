@@ -1,23 +1,29 @@
 return if node['certbot'].nil?
 
 include_recipe 'certbot'
+include_recipe 'site-certbot::bootstrap'
 
 config_dir = node['certbot']['config_dir']
-primary_domain = node['certbot']['site']['domains'].first
 
-cert_dir = "#{config_dir}/live/#{primary_domain}"
-cert_file = "#{cert_dir}/fullchain.pem"
+node['site-certbot']['sites'].each do |site|
+  primary_domain = site['domains'].first
+  public_path = site['public_path'] || 'current/public'
 
-directory cert_dir do
-  action :delete
-  only_if { Certbot::Util.self_signed_certificate?(cert_file) }
-end
+  cert_dir = "#{config_dir}/live/#{primary_domain}"
+  cert_file = "#{cert_dir}/fullchain.pem"
 
-certbot_certonly_webroot primary_domain do
-  webroot_path node['certbot']['site']['webroot_path']
-  email node['certbot']['site']['email']
-  domains node['certbot']['site']['domains']
-  agree_tos node['certbot']['site']['agree_tos']
-  expand node['certbot']['site']['expand']
-  notifies :restart, "service[nginx]"
+  directory cert_dir do
+    action :delete
+    only_if { Certbot::Util.self_signed_certificate?(cert_file) }
+  end
+
+  certbot_certonly_webroot primary_domain do
+    webroot_path "/var/www/#{site['name']}/#{public_path}"
+    email node['site-certbot']['email']
+    domains site['domains']
+    agree_tos node['site-certbot']['agree_tos']
+    expand node['site-certbot']['expand']
+    notifies :restart, "service[nginx]"
+    not_if { ::File.exist?(cert_file) }
+  end
 end
